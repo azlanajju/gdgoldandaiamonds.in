@@ -56,7 +56,7 @@ $col_id = intval($_GET['col_id']);
       <a href="./about.php" onclick="closeMenu()">ABOUT</a>
       <a href="./collections.php" class="active">COLLECTIONS</a>
       <a href="./plans.php" onclick="closeMenu()">PLANS</a>
-      <a href="./contact.php" onclick="closeMenu()">CONTACT</a>
+      <a href="https://goldendream.in/login" onclick="closeMenu()">Login</a>
       <i class="fa fa-times close-menu" onclick="closeMenu()"></i>
     </div>
     <div class="menu-shadow" onclick="closeMenu()"></div>
@@ -130,7 +130,7 @@ $col_id = intval($_GET['col_id']);
                     <?php } ?>
 
                     <!-- Buy Now Button (smaller) -->
-                    <a href="https://wa.me/+916361557581?text=Hello,%20I%20would%20like%20to%20learn%20more%20about%20the%20item%20*<?php echo urlencode(htmlspecialchars($row['item_name'])); ?>*%20this%20item.%0A%0A<?php echo urlencode('https://gdgoldanddiamonds.in/img.php?item_id=' . $row['item_id']); ?>" class="btn btn-success rounded-pill px-2" style="font-size: 0.7rem; padding: 5px 10px;">
+                    <a href="https://wa.me/+919148519580?text=Hello,%20I%20would%20like%20to%20learn%20more%20about%20the%20item%20*<?php echo urlencode(htmlspecialchars($row['item_name'])); ?>*%20this%20item.%0A%0A<?php echo urlencode('https://gdgoldanddiamonds.in/img.php?item_id=' . $row['item_id']); ?>" class="btn btn-success rounded-pill px-2" style="font-size: 0.7rem; padding: 5px 10px;">
                       <i class="bi bi-whatsapp"></i> &nbsp; Buy Now
                     </a>
                   </div>
@@ -193,7 +193,7 @@ $col_id = intval($_GET['col_id']);
         </ul>
         <div style="width: 100%;text-align: center;">
 
-          <div class="mt-2">
+          <div class="mt-2 socialBtns" title="Social Accounts" onclick="window.location.href='./socials.php'">
             <span class="social-icon"><i class="fa fa-whatsapp"></i> </span>
             <span class="social-icon"><i class="fa fa-instagram"></i> </span>
             <span class="social-icon"><i class="fa fa-twitter"></i> </span>

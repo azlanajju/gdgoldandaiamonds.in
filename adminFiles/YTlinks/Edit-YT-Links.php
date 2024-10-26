@@ -1,4 +1,13 @@
 <?php
+session_start(); 
+
+if (!isset($_SESSION['user_id']) || !isset($_SESSION['email'])) {
+    header("Location: ../login.php");
+    exit;
+}
+
+?>
+<?php
 // Include database connection
 include '../config.php';
 
@@ -146,9 +155,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-box-arrow-left"></i> Logout
-                            </a>
+                        <a class="nav-link" href="../logout.php">
+                            <i class="bi bi-box-arrow-left"></i> Logout
+                        </a>
                         </li>
                     </ul>
                 </div>

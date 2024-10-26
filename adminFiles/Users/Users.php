@@ -1,3 +1,12 @@
+<?php
+session_start(); 
+
+if (!isset($_SESSION['user_id']) || !isset($_SESSION['email'])) {
+    header("Location: ../login.php");
+    exit;
+}
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -102,9 +111,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-box-arrow-left"></i> Logout
-                            </a>
+                        <a class="nav-link" href="../logout.php">
+                            <i class="bi bi-box-arrow-left"></i> Logout
+                        </a>
                         </li>
                     </ul>
                 </div>
@@ -184,6 +193,9 @@
                                 <td>" . htmlspecialchars($row['email']) . "</td>
                                 <td>" . $row['created_at'] . "</td>
                                 <td>" . $row['updated_at'] . "</td>
+                                 <td>
+                    <a href='./Delete-Users.php?id=" . urlencode($row['id']) . "' class='btn btn-danger btn-sm' onclick=\"return confirm('Are you sure you want to delete this user?')\">Delete</a>
+                </td>
                               </tr>";
                     }
                 } else {

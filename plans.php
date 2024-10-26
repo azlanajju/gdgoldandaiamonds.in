@@ -47,7 +47,7 @@ include("./adminFiles/config.php");
       <a href="./about.php">ABOUT</a>
       <a href="./collections.php">COLLECTIONS</a>
       <a class="active">PLANS</a>
-      <a href="./contact.php" >CONTACT</a>
+      <a href="https://goldendream.in/login" >Login</a>
       <i class="fa fa-times close-menu" onclick="closeMenu()"></i>
     </div>
     <div class="menu-shadow" onclick="closeMenu()"></div>
@@ -60,9 +60,9 @@ include("./adminFiles/config.php");
 
   <div class="container4 d-flex justify-content-center">
     <div class="col-12 col-md-6 mb-3">
-      <h5 class="text-light">Mega God Savings Plan</h5> <br>
+      <h5 class="text-light">Mega Gold Savings Plan</h5> <br>
 
-      <iframe src="./files/gb.pdf" width="100%" height="600" frameborder="0"></iframe>
+      <iframe src="https://drive.google.com/file/d/12hA0S1-X15IKP1k6eCHI6zKHjSEoruki/preview" width="100%" height="600" frameborder="0"></iframe>
       <div class="row justify-content-center bg-dark">
         <div class="row col-md-8 justify-content-between"> <a href="./files/gb.pdf" class="btn col-md bg-golden "> <strong>Download brochure </strong> &nbsp; <i class="fa fa-download"></i>
         </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -107,9 +107,9 @@ include("./adminFiles/config.php");
           |&nbsp;&nbsp;
           <li><a href="./privacy-policy/">Plans</a></li>
         </ul>
-        <div style="width: 100%;text-align: center;">
+        <div style="width: 100%;text-align: center;" onclick="window.location.href='./socials.php'">
 
-          <div class="mt-2">
+          <div class="mt-2 socialBtns" title="Social Accounts" title="Social Accounts">
             <span class="social-icon"><i class="fa fa-whatsapp"></i> </span>
             <span class="social-icon"><i class="fa fa-instagram"></i> </span>
             <span class="social-icon"><i class="fa fa-twitter"></i> </span>

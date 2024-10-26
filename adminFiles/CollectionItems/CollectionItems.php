@@ -1,4 +1,13 @@
 <?php
+session_start(); 
+
+if (!isset($_SESSION['user_id']) || !isset($_SESSION['email'])) {
+    header("Location: ../login.php");
+    exit;
+}
+
+?>
+<?php
 include("../config.php");
 
 // Check connection
@@ -112,9 +121,9 @@ $result = $conn->query($sql);
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-box-arrow-left"></i> Logout
-                            </a>
+                        <a class="nav-link" href="../logout.php">
+                            <i class="bi bi-box-arrow-left"></i> Logout
+                        </a>
                         </li>
                     </ul>
                 </div>
