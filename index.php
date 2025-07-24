@@ -11,10 +11,10 @@ include("./adminFiles/config.php");
 
   <!--   seo optimization -->
   <!-- Homepage Meta Description -->
-  <meta name="description" content="GD Gold and Diamonds in Mudipu offers exclusive jewelry collections and tailored gold plans for Mangalore customers. Visit us today!">
+  <meta name="description" content="Liyas gold & diamonds in Mudipu offers exclusive jewelry collections and tailored gold plans for Mangalore customers. Visit us today!">
 
   <!-- Gold Plans Page Meta Description -->
-  <meta name="description" content="Explore flexible gold plans at GD Gold, Mudipu’s trusted source for quality jewelry in Mangalore. Start your savings today!">
+  <meta name="description" content="Explore flexible gold plans at Liyas, Mudipu's trusted source for quality jewelry in Mangalore. Start your savings today!">
 
   <!-- Contact Page Meta Description -->
   <meta name="description" content="Visit GD Gold in Mudipu, Mangalore for quality gold plans and more. Contact us today for exclusive options.">
@@ -41,23 +41,22 @@ include("./adminFiles/config.php");
 <body class="content">
   <div class="loading">
     <div class="loadingAnimation">
-
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <img height="160" style="margin-top: -35px;" src="./images/gdlogo.png" alt="">
-
+      <div class="diamond-loader">
+        <div class="diamond-shape"></div>
+      </div>
+      <img height="100" style="margin-top: 0;" src="./images/liyaslogo1.png" alt="Liyas Logo">
     </div>
   </div>
 
   <!-- --------------- ----nav bar start ------------------ -->
   <header id="header">
-    <img src="./images/gdlogo.png" href="#" class="logo" />
+    <img src="./images/liyaslogo1.png" href="#" class="logo" />
     <div class="menu">
       <a class="active">HOME</a>
-      <a href="./about.php" onclick="closeMenu()">ABOUT</a>
-      <a href="./collections.php">COLLECTIONS</a>
-      <a href="./plans.php" onclick="closeMenu()">PLANS</a>
-      <span> <a href="https://goldendream.in/login">LOGIN</a>
+      <a href="./about.php" class="active" onclick="closeMenu()">ABOUT</a>
+      <a href="./collections.php" class="active">COLLECTIONS</a>
+      <a href="./plans.php" class="active" onclick="closeMenu()">PLANS</a>
+      <span> <a href="https://goldendream.in/login" class="active">LOGIN</a>
       </span>
       <i class="fa fa-times close-menu" onclick="closeMenu()"></i>
     </div>
@@ -120,7 +119,7 @@ include("./adminFiles/config.php");
             </video>
           </div>
           <div class="homePageImg">
-            <img src="./images/bangle6.png" alt="" />
+            <img src="./images/bangle1.png" alt="Gold Bangle Collection" />
           </div>
 
           <div class="homePageText">
@@ -146,7 +145,7 @@ include("./adminFiles/config.php");
             </video>
           </div>
           <div class="homePageImg">
-            <img src="./images/chain9.png" alt="" />
+            <img src="./images/chain11.png" alt="Gold Chain Collection" />
           </div>
           <div class="homePageText">
             <h2>
@@ -171,7 +170,7 @@ include("./adminFiles/config.php");
             </video>
           </div>
           <div class="homePageImg">
-            <img src="./images/earring12.png" alt="" />
+            <img src="./images/earring12.png" alt="Diamond Earrings Collection" />
           </div>
           <div class="homePageText">
             <h2>
@@ -196,7 +195,7 @@ include("./adminFiles/config.php");
             </video>
           </div>
           <div class="homePageImg">
-            <img src="./images/chain13.png" alt="" style="width: 55%; height: 55%;" />
+            <img src="./images/chain13.png" alt="Gold Chain Collection" />
           </div>
           <div class="homePageText">
             <h2>
@@ -221,7 +220,7 @@ include("./adminFiles/config.php");
             </video>
           </div>
           <div class="homePageImg">
-            <img src="./images/bracelet11.png" alt="" />
+            <img src="./images/bracelet11.png" alt="Gold Bracelet Collection" />
           </div>
           <div class="homePageText">
             <h2>
@@ -257,13 +256,13 @@ include("./adminFiles/config.php");
         <h1 data-aos-delay="100" data-aos="fade-up">Why Choose Us</h1>
 
         <p class="whyTochooseUs">
-          At GD GOLD AND DIAMONDS, we’re dedicated to providing a trusted, high-quality experience for our clients. With ethically sourced, rigorously inspected gold, we ensure each piece meets the highest standards. Whether you’re new to investing or an experienced buyer, our range of products offers something for everyone.</p>
+          At LIYAS GOLD AND DIAMONDS, we're dedicated to providing a trusted, high-quality experience for our clients. With ethically sourced, rigorously inspected gold, we ensure each piece meets the highest standards. Whether you're new to investing or an experienced buyer, our range of products offers something for everyone.</p>
         <p class="whyTochooseUs">
 
-          Our expert team at GD GOLD AND DIAMONDS brings decades of experience, dedicated to empowering clients with knowledge and personalized guidance. Whether you're investing in gold for security, growth, or as a family heirloom, we're here to support informed decisions. Your success is our priority.</p>
+          Our expert team at LIYAS GOLD AND DIAMONDS brings decades of experience, dedicated to empowering clients with knowledge and personalized guidance. Whether you're investing in gold for security, growth, or as a family heirloom, we're here to support informed decisions. Your success is our priority.</p>
         <p class="whyTochooseUs">
 
-          Choosing GD GOLD AND DIAMONDS means partnering with a team committed to integrity, transparency, and excellence. We prioritize long-term relationships, offering trusted guidance to help secure your financial future with confidence.</p>
+          Choosing LIYAS GOLD AND DIAMONDS means partnering with a team committed to integrity, transparency, and excellence. We prioritize long-term relationships, offering trusted guidance to help secure your financial future with confidence.</p>
       </div>
       <div class="col-md-6 text-center section2">
         <img data-aos-delay="100" data-aos="fade-up" src="./images/bangle.png" alt="" />
@@ -275,7 +274,7 @@ include("./adminFiles/config.php");
   <!-- ------------------------Trending Start-------------------------------- -->
 
   <div class="container3 text-center">
-    <h1 data-aos-delay="100" data-aos="fade-up">Trending on <span>GD Gold and Diamonds</span></h1>
+    <h1 data-aos-delay="100" data-aos="fade-up">Trending on <span>LIYAS Gold and Diamonds</span></h1>
     <div data-aos-delay="100" data-aos="fade-up" style="margin: 0px" class="UnderLine text-center">
       <p></p>
     </div>
@@ -295,17 +294,37 @@ include("./adminFiles/config.php");
         while ($row = $tc_result->fetch_assoc()) {
       ?>
           <div data-aos-delay="100" data-aos="fade-up" class="col-md-3 trend_Container">
-            <img src="./adminFiles/CollectionItems/<?php echo htmlspecialchars($row['collection_image_url']); ?>" alt="<?php echo htmlspecialchars($row['collection_name']); ?>" />
-            <p><?php echo htmlspecialchars($row['collection_name']); ?></p>
+            <img src="./images/classynecklace.avif" alt="Gold Necklace Collection" />
+            <p>Gold Necklace Collection</p>
+          </div>
+          <div data-aos-delay="100" data-aos="fade-up" class="col-md-3 trend_Container">
+            <img src="./images/DiamondJEwellery.avif" alt="Diamond Rings" />
+            <p>Diamond Rings</p>
+          </div>
+          <div data-aos-delay="100" data-aos="fade-up" class="col-md-3 trend_Container">
+            <img src="./images/Festive.webp" alt="Bridal Collection" />
+            <p>Bridal Collection</p>
           </div>
       <?php
         }
       } else {
-        echo "<p>No collections found.</p>";
+        // If no trending collections in database, show default trending items
+      ?>
+          <div data-aos-delay="100" data-aos="fade-up" class="col-md-3 trend_Container">
+            <img src="./images/classynecklace.avif" alt="Gold Necklace Collection" />
+            <p>Gold Necklace Collection</p>
+          </div>
+          <div data-aos-delay="100" data-aos="fade-up" class="col-md-3 trend_Container">
+            <img src="./images/DiamondJEwellery.avif" alt="Diamond Rings" />
+            <p>Diamond Rings</p>
+          </div>
+          <div data-aos-delay="100" data-aos="fade-up" class="col-md-3 trend_Container">
+            <img src="./images/Festive.webp" alt="Bridal Collection" />
+            <p>Bridal Collection</p>
+          </div>
+      <?php
       }
       ?>
-
-
     </div>
   </div>
   <br />
@@ -313,9 +332,6 @@ include("./adminFiles/config.php");
 
   <!-- ------------------------Collections Start-------------------------------- -->
   <?php
-
-
-
   $col_sql = "SELECT collection_id, collection_name, collection_image_url FROM collections ORDER BY sort_order ASC";
   $col_result = $conn->query($col_sql);
   ?>
@@ -344,7 +360,7 @@ include("./adminFiles/config.php");
         }
     ?>
         <a href="./collectionItems.php?col_id=<?php echo $row['collection_id']; ?>" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
-          <img src="./adminFiles/CollectionItems/<?php echo htmlspecialchars($row['collection_image_url']); ?>" alt="<?php echo htmlspecialchars($row['collection_name']); ?>" />
+          <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&auto=format&fit=crop&q=60" alt="<?php echo htmlspecialchars($row['collection_name']); ?>" />
           <p><?php echo htmlspecialchars($row['collection_name']); ?></p>
         </a>
     <?php
@@ -355,7 +371,37 @@ include("./adminFiles/config.php");
         echo "</div>";
       }
     } else {
-      echo "<p>No collections found.</p>";
+      // If no collections in database, show default collections
+      ?>
+      <div class="row" style="justify-content: space-around">
+        <a href="./collectionItems.php" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=60" alt="Gold Bangles" />
+          <p>Gold Bangles</p>
+        </a>
+        <a href="./collectionItems.php" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&auto=format&fit=crop&q=60" alt="Diamond Earrings" />
+          <p>Diamond Earrings</p>
+        </a>
+        <a href="./collectionItems.php" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=60" alt="Gold Chains" />
+          <p>Gold Chains</p>
+        </a>
+      </div>
+      <div class="row" style="justify-content: space-around">
+        <a href="./collectionItems.php" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&auto=format&fit=crop&q=60" alt="Gold Bracelets" />
+          <p>Gold Bracelets</p>
+        </a>
+        <a href="./collectionItems.php" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
+          <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&auto=format&fit=crop&q=60" alt="Diamond Necklaces" />
+          <p>Diamond Necklaces</p>
+        </a>
+        <a href="./collectionItems.php" data-aos-delay="100" data-aos="fade-up" class="col-md-3 Coll_Container btn">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&auto=format&fit=crop&q=60" alt="Gold Earrings" />
+          <p>Gold Earrings</p>
+        </a>
+      </div>
+      <?php
     }
     ?>
 
@@ -378,7 +424,7 @@ include("./adminFiles/config.php");
         <div class="col-lg-6">
           <div class="info-section contactSectionHeight">
             <h2 class="mb-4 golden_Text">Let's get in touch</h2>
-            <p class="text-justify">Whether you have a question, need support, or just want to collaborate, we’re here to help. Feel free to reach out to us through the contact details provided or by filling out the form. We look forward to hearing from you!</p>
+            <p class="text-justify">Whether you have a question, need support, or just want to collaborate, we're here to help. Feel free to reach out to us through the contact details provided or by filling out the form. We look forward to hearing from you!</p>
             <p>#2-108/C-7, Ground Floor, Sri Mantame Complex, Near Soorya Infotech Park, Kurnadu Post, Mudipu Road, Bantwal- 574153</p>
             <p>Goldendream035@gmail.com</p>
             <p>+91 73497 39580</p>
@@ -393,8 +439,8 @@ include("./adminFiles/config.php");
 
         <!-- Contact Form Section -->
         <div class="col-lg-6">
-          <div class="contact-section contactSectionHeight">
-            <h2 class="text-white mb-4">Contact us</h2>
+          <div class="info-section contactSectionHeight">
+            <h2 class="mb-4 golden_Text">Contact us</h2>
             <form method="POST" action="./sendMail.php">
               <div class="mb-3">
                 <input type="text" class="form-control" name="full_name" placeholder="Full Name" required />
@@ -410,7 +456,6 @@ include("./adminFiles/config.php");
               </div>
               <button type="submit" class="btn w-100 contactBtn">Send Message</button>
             </form>
-
           </div>
         </div>
       </div>
@@ -518,7 +563,7 @@ include("./adminFiles/config.php");
     </div> <!-- End of container -->
     ';
   } else {
-    echo '<p class="text-center">No videos available right now ;( .</p>';
+    echo '<p class="text-center">No videos available right now.</p>';
   }
 
   ?>
@@ -529,7 +574,7 @@ include("./adminFiles/config.php");
   <div data-aos-delay="100" data-aos="fade-up" style="margin: 0px" class="UnderLine text-center">
     <p></p>
   </div>
-  <div class="container ">
+  <div class="container text-center">
     <div class="accordion" id="faqAccordion">
       <?php
       include('./adminFiles/config.php');
@@ -559,7 +604,7 @@ include("./adminFiles/config.php");
       <?php
         }
       } else {
-        echo "<p>No FAQs available at the moment.</p>";
+        echo '<div class="container text-center"><p class="text-center">No FAQs available at the moment.</p></div>';
       }
 
       $conn->close();
@@ -574,38 +619,32 @@ include("./adminFiles/config.php");
   <!-- ----------------foooter start ----------------  -->
   <footer class="site-footer">
     <div class="footer-content">
-
-
       <div style="width: 150% !important" class="footer-info second-column">
-        <!-- <p class="footer-business-name">Copyrights &copy; GD Golds and Diamonds</p> -->
-        <div class="row">
-          <div class="col-3">
-            <img height="100" class="footerLogo" src="./images/gdlogo.png" alt="" />
-          </div>
-          <div class="col-8" style="text-align: left;">
-            <p class="footer-business-address "><strong>Locations:</strong> #2-108/C-7, Ground Floor, Sri Mantame Complex, Near Soorya Infotech Park, Kurnadu Post, Mudipu Road, Bantwal- 574153</p>
+        <div class="footer-row">
+          <img class="footerLogo" src="./images/liyaslogo1.png" alt="Liyas Logo" />
+          <div class="footer-info">
+            <p class="footer-business-address"><strong>Locations:</strong> #2-108/C-7, Ground Floor, Sri Mantame Complex, Near Soorya Infotech Park, Kurnadu Post, Mudipu Road, Bantwal- 574153</p>
             <p class="footer-business-phone"><strong>Phone: </strong>+91 73497 39580</p>
           </div>
         </div>
       </div>
       <div style="width: 100% !important" class="footer-info second-column">
-        <p class="footer-business-name pcFooterCopyright">Copyrights &copy; GD Golds and Diamonds</p>
+        <p class="footer-business-name pcFooterCopyright">Copyrights &copy; Liyas gold & diamonds</p>
         <a href="https://intelexsolutions.in" class="logo-column">
           <img height="85" src="./images/footerCreditsIS.png" alt="" />
         </a>
       </div>
-      <nav class="footer-nav third-column ">
+      <nav class="footer-nav third-column">
         <ul>
           <li><a href="./">Home</a></li>
           |&nbsp;&nbsp;
-          <li><a href="./privacy-policy/"> About us</a></li>
+          <li><a href="./about.php">About us</a></li>
           |&nbsp;&nbsp;
-          <li><a href="./contact">Collections</a></li>
+          <li><a href="./collections.php">Collections</a></li>
           |&nbsp;&nbsp;
-          <li><a href="./privacy-policy/">Plans</a></li>
+          <li><a href="./plans.php">Plans</a></li>
         </ul>
         <div style="width: 100%;text-align: center;">
-
           <div class="mt-2 socialBtns" title="Social Accounts" onclick="window.location.href='./socials.php'">
             <span class="social-icon"><i class="fa fa-whatsapp"></i> </span>
             <span class="social-icon"><i class="fa fa-instagram"></i> </span>
@@ -614,11 +653,9 @@ include("./adminFiles/config.php");
         </div>
       </nav>
     </div>
-
   </footer>
   <div class="phoneFooterCopyright">
-    <p class="">Copyrights &copy; GD Golds and Diamonds</p>
-
+    <p class="">Copyrights &copy; Liyas gold & diamonds</p>
   </div>
 
 
@@ -640,24 +677,11 @@ include("./adminFiles/config.php");
 
     const showValue = params.get('show');
 
-<<<<<<< HEAD
     if (showValue !== null) {
       console.log(`The value of the 'show' parameter is: ${showValue}`);
     } else {
       window.location.href = "Maintenance.html";
     }
-<<<<<<< Updated upstream
-  </script>
-=======
-if (showValue !== null ) {
-  console.log(`The value of the 'show' parameter is: ${showValue}`);
-} else {
-  // window.location.href = "Maintenance.html";
-}
-
-</script>
->>>>>>> refs/remotes/origin/main
-=======
   </script> -->
   <!-- aos animation script  -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
